@@ -13,7 +13,9 @@ repositories or scientific discoveries already exist.
 | [contextual-inventory-lab](https://github.com/Shereen20112003/contextual-inventory-lab) | When does a quantile decision outperform mean prediction in a capacity-constrained newsvendor? | Synthetic demand, exact oracle, cost and regret evaluation |
 
 Each project is separate, MIT licensed, and includes tests, dependency locking,
-CLI experiments, measured example outputs, CI, and explicit limitations.
+CLI experiments, measured example outputs, and explicit limitations.
+GitHub Actions templates are retained locally pending permission to publish
+workflows; hosted CI is not yet enabled. Local tests passed for all three projects.
 The links are publication destinations; consult each repository for its actual
 implementation and checks. The remaining projects below are **planned only**:
 no empty placeholder repositories are needed to inflate the count.
