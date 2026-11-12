@@ -1,7 +1,7 @@
 # Research Engineering Portfolio
 
 A roadmap for **30 independent, reproducible research prototypes**, starting
-with three CPU-runnable projects. This is a staged plan, not a claim that 30
+with eight published CPU-runnable projects. This is a staged plan, not a claim that 30
 repositories or scientific discoveries already exist.
 
 ## First implementation batch
@@ -16,9 +16,29 @@ Each project is separate, MIT licensed, and includes tests, dependency locking,
 CLI experiments, measured example outputs, and explicit limitations.
 GitHub Actions templates are retained locally pending permission to publish
 workflows; hosted CI is not yet enabled. Local tests passed for all three projects.
-The links are publication destinations; consult each repository for its actual
-implementation and checks. The remaining projects below are **planned only**:
-no empty placeholder repositories are needed to inflate the count.
+Consult each repository for its actual implementation and checks.
+
+## Second implementation batch
+
+| Repository | Research question | Local tests |
+|---|---|---|
+| [active-vision-budget](https://github.com/Shereen20112003/active-vision-budget) | Do entropy-guided glimpses improve digit recognition when observation and model-evaluation budgets are reported separately? | 7 passed |
+| [supply-risk-cvar](https://github.com/Shereen20112003/supply-risk-cvar) | How do mean, CVaR, and worst-case procurement objectives behave under correlated supplier disruptions? | 15 passed |
+| [pricing-confounding-lab](https://github.com/Shereen20112003/pricing-confounding-lab) | How does historical price confounding distort pricing decisions under context shift? | 6 passed |
+| [pragmatic-listener-lab](https://github.com/Shereen20112003/pragmatic-listener-lab) | When does a fitted pragmatic listener fail under a change in speaker rationality? | 10 passed |
+| [perturbation-proxy-lab](https://github.com/Shereen20112003/perturbation-proxy-lab) | Can morphology-derived gene proxies recover intervention effects, and how does treatment-linked imaging bias break them? | 9 passed |
+
+These five MIT-licensed prototypes include CPU CLIs, measured three-seed results,
+and 47 passing local tests. Direct dependencies are pinned; transitive dependencies
+are not fully locked. Hosted CI is not enabled. The vision project uses bundled
+handwritten digits; the other four use synthetic data.
+
+The themes cover DiCarlo-oriented visual intelligence, Goodman-oriented pragmatic
+inference, Uhler-oriented multimodal causal learning, and two grouped OR projects
+for interests spanning Perakis, Bertsimas, Retsef Levi, David Simchi-Levi, and
+Iyengar. They do not reproduce or claim endorsement by those researchers.
+Empirical CVaR is not a distributionally robust certificate, and synthetic
+causal or behavioral results are not validation on cells or human participants.
 
 ## Research alignment, not affiliation
 
@@ -51,7 +71,10 @@ result is claimed. Faculty names contextualize themes, not repository branding.
 
 ## Thirty-project roadmap
 
-All rows after the first three are proposals, not completed contributions.
+Rows 1, 2, 3, and 6 have published implementations. The other rows remain
+proposals, not completed contributions; the four additional second-batch repos
+above are related extensions, not completed versions of those planned rows.
+No empty placeholder repositories are needed to inflate the count.
 Default acceptance: deterministic CLI, independent evaluation data, at least
 one meaningful baseline, negative/edge-case tests, measured output, a license,
 and documented failure modes.
